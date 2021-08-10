@@ -10,7 +10,5 @@ public class Afisare {
             } else System.out.println(value.toString()
                     .replace('[', ' ').replace(']', ' '));
         });
-         if (anagrams.size() == 1000000){
-             System.gc();}
      }
 }
